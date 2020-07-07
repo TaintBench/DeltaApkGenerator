@@ -1,3 +1,4 @@
+/** @author Linghui Luo */
 public class MyLogger {
 
   private boolean print = true;
