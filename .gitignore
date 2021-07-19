@@ -1,0 +1,7 @@
+/target/
+delta_apks/
+.classpath
+.project/
+.settings/
+.project
+dependency-reduced-pom.xml
