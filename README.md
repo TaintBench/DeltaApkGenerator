@@ -16,6 +16,6 @@ or
 
 The default output folder is `yourWorkingDirectory/delta_apks`. 
 
-For each taint flow, a folder `delta_ID` is created with the ID of the taint flow. A `*delta_choices.json` file is generated as manual selection is requried as multiple jimple statements can be the specified source. The `*delta_choices.json` file can be used for next run with the following options: 
+For each taint flow, a folder `delta_ID` is created with the ID of the taint flow. You can find the respective sanitized APK for the taint flow. A `*delta_choices.json` file is generated as manual selection is requried as multiple jimple statements can be the specified source. The `*delta_choices.json` file can be used for next run with the following options: 
 
 ``-apk <apk> -f <TAF-file>  -p <android platform jars> -c <*delta_choices.json>``
